@@ -2,7 +2,7 @@ FROM manish2good/mydockerclass:v1
 
 MAINTAINER "jeet@gmail.com
 
-RUN yum install unzip -y
+RUN yum install unzip netstat bind-util vim  -y
 
 COPY index.html /var/www/html
 
